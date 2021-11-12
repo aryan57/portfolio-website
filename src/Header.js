@@ -14,7 +14,8 @@ export default function Header() {
 						<Nav className="me-auto">
 						</Nav>
 						<Nav>
-							<Nav.Link href={ResumePdf} target = "_blank">Resume</Nav.Link>
+							
+							{/* <Nav.Link href={ResumePdf} target = "_blank">Resume</Nav.Link> */}
 							<Nav.Link href="/contact">Contact Me</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
