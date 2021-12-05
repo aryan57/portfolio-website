@@ -1,9 +1,7 @@
 import React from "react"
 import { Navbar, Nav, Container } from "react-bootstrap"
-import ResumePdf from './static/RESUME.pdf';
 
 export default function Header() {
-
 	return (
 		<div>
 			<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -15,7 +13,7 @@ export default function Header() {
 						</Nav>
 						<Nav>
 							
-							{/* <Nav.Link href={ResumePdf} target = "_blank">Resume</Nav.Link> */}
+							<Nav.Link href={process.env.REACT_APP_LINK_RESUME}>Resume</Nav.Link>
 							<Nav.Link href="/contact">Contact Me</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
