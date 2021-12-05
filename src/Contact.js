@@ -1,6 +1,6 @@
 import React from "react"
 import { Container } from 'react-bootstrap'
-
+import links from "./links.json"
 
 export default function Contact() {
 	return (
@@ -13,11 +13,11 @@ export default function Contact() {
 					</ui>
 					<br />
 					<ui>
-						<li><a href={process.env.REACT_APP_LINK_FACEBOOK}>Facebook</a></li>
-						<li><a href={process.env.REACT_APP_LINK_INSTAGRAM}>Instagram</a></li>
-						<li><a href={process.env.REACT_APP_LINK_TWITTER}>Twitter</a></li>
-						<li><a href={process.env.REACT_APP_LINK_GITHUB}>Github</a></li>
-						<li><a href={process.env.REACT_APP_LINK_LINKEDIN}>Linkedin</a></li>
+						<li><a href={links.FACEBOOK}>Facebook</a></li>
+						<li><a href={links.INSTAGRAM}>Instagram</a></li>
+						<li><a href={links.TWITTER}>Twitter</a></li>
+						<li><a href={links.GITHUB}>Github</a></li>
+						<li><a href={links.LINKEDIN}>Linkedin</a></li>
 					</ui>
 				</div>
 			</Container>
