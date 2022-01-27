@@ -1,6 +1,6 @@
 import React from "react"
 import { Navbar, Nav, Container } from "react-bootstrap"
-import links from "./links.json"
+import config from "./config.json"
 
 export default function Header() {
 	return (
@@ -14,7 +14,7 @@ export default function Header() {
 						</Nav>
 						<Nav>
 							
-							<Nav.Link href={links.RESUME}>Resume</Nav.Link>
+							<Nav.Link href={config.URL_RESUME}>Resume</Nav.Link>
 							<Nav.Link href="/contact">Contact Me</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
