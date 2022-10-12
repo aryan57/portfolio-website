@@ -9,7 +9,6 @@ export default function Contact() {
 				<div className="w-100" style={{ maxWidth: "450px", marginTop: 50 }}>
 					<ui>
 						<li>Email: <a href="mailto:aryanag65@gmail.com">aryanag65@gmail.com</a></li>
-						<li>Phone: <a href="tel:+91-8529631557">+91-8529631557</a></li>
 					</ui>
 					<br />
 					<ui>
