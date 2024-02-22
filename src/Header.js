@@ -13,7 +13,7 @@ export default function Header() {
 						<Nav className="me-auto">
 						</Nav>
 						<Nav>
-							
+							<Nav.Link href="/">About Me</Nav.Link>
 							<Nav.Link href={config.URL_RESUME}>Resume</Nav.Link>
 							<Nav.Link href="/contact">Contact Me</Nav.Link>
 						</Nav>
